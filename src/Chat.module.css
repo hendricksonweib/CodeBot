@@ -1,0 +1,16 @@
+.mainConteiner{
+    margin: 0 4.8rem;
+    max-height: 45rem;
+    overflow-y: auto; 
+    scroll-behavior: smooth; 
+}
+.dataTime{
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.chatConteiner{
+    margin: 0 4.8rem;
+}

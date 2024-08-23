@@ -1,0 +1,22 @@
+.conteinerInput {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 9.6rem 0;
+    background: var(--blue);
+    height: 52px;
+    padding:0px 24px ;
+    border-radius: 999px;
+}
+
+.conteinerInput input {
+    width: 100%;
+    background: var(--blue);
+    color: var(--white--00);
+    outline: none;
+    border: none;
+}
+.conteinerInput button {
+    background: transparent;
+    outline: none;
+    border: none;
+}
