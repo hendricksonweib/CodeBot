@@ -1,0 +1,24 @@
+.MenssageConteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--white-00);
+    gap: 10px;
+}
+
+.bublle {
+    max-width: 442px;
+    font-size: 14px;
+    color: var(--white-00);
+    background: var(--green-02);
+    padding: 14px;
+    border-radius: 8px 8px 0 8px;
+    display: inline-block;
+    word-wrap: break-word;
+}
+
+.MenssageConteiner + .MenssageConteiner {
+    margin-top: 1.875rem;
+}
